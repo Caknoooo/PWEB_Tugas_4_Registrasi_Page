@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/signup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Sign Up Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Sign up Form</header>
+      <form action="#">
+        <div class="field name">
+          <div class="input-area">
+            <input type="text" name="" id="" placeholder="Username" />
+            <i class="icon fas fa-envelope-open-text"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Username can't be blank</div>
+        </div>
+      </form>
+      <form action="#">
+        <div class="field email">
+          <div class="input-area">
+            <input type="text" name="" id="" placeholder="Email" />
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Email can't be blank</div>
+        </div>
+      </form>
+      <form action="#">
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" name="" id="" placeholder="password" />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Password can't be blank</div>
+        </div>
+      </form>
+
+      <form action="#">
+        <div class="field confirm-password">
+          <div class="input-area">
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="Confirm password"
+            />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Password can't be blank</div>
+        </div>
+        <input type="submit" value="Register" />
+      </form>
+      <div class="sign-txt">Already Have Account?<a href="index.html"> Login </a></div>
+
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
